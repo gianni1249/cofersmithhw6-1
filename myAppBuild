@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Building the myApp application"
+echo "The executable is named myApp"
+g++ derek_LED.cpp myApp.cpp -o myApp
+echo "Finished"
